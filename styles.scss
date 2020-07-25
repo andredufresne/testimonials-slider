@@ -49,6 +49,7 @@ body {
 
 .image-container {
     display: flex;
+    filter: drop-shadow(6px 6px 6px $greyish-blue);
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
@@ -57,7 +58,8 @@ body {
 // Styling for the buttons
 .btn {
     color: $greyish-blue;
-    margin: 5px 12px;
+    margin: 5% 10%;
+    padding: 1% 20%;
 }
 
 .btn-container {
@@ -65,14 +67,14 @@ body {
     border-radius: 50px;
     display: flex;
     position: absolute;
-    width: 80px;
+    width: 150px;
     height: 40px;
     justify-content: center;
     align-items: center;
 }
 
-@media screen and (max-width: 750px) {
-    
+@media screen and (min-width: 750px) {
+
 }
 // Styling for attribution section
 .attribution {
