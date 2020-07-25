@@ -1,0 +1,81 @@
+$font-stack: Inter,
+sans-serif;
+$dark-blue: hsl(240, 35%, 20%);
+$greyish-blue: hsl(240, 18%, 77%);
+
+body {
+    font: 100% $font-stack;
+}
+
+.content {
+    color: $dark-blue;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 15%;
+    margin-bottom: 0;
+    width: 75%;
+    text-align: center;
+}
+
+.title {
+    color: $greyish-blue;
+    margin-top: -10px;
+    margin-bottom: 20%;
+
+}
+.btn {
+    color: $greyish-blue;
+    margin: 5px 12px;
+}
+
+.btn-container {
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 60%;
+    object-fit: contain;
+}
+
+.slide-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.picture {
+    width: 60%;
+}
+
+#slide-2 {
+    display: none;
+}
+
+.display {
+    display: flex;
+}
+
+.attribution {
+    font-size: 11px;
+    color: $greyish-blue;
+}
